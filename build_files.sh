@@ -1,4 +1,4 @@
 echo "BUILD START"
-py -m pip install -r requirement.txt
-py manage.py collectstatic --noinput --clear
+python -m pip install -r requirement.txt
+python manage.py collectstatic --noinput --clear
 echo "BIULD END"
